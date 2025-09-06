@@ -1,0 +1,2 @@
+com\itheima\consumer\ConsumerApplication.class
+com\itheima\consumer\mq\SpringRabbitListener.class
