@@ -55,4 +55,22 @@ public class SpringAmqpTest {
 
     }
 
+
+    @Test
+    public void testDirectQueue(){
+//        1 队列名
+        String exchangeName = "hmall.direct";
+        for (int i = 1; i <= 5; i++) {
+            //        2 消息内容
+            String message = "Hello everyone, 这是第" + i + "条消息";
+            String message2 = "Yellow not blue";
+            String message3 = "Blue not yellow";
+            //        3 发送消息到交换机
+            rabbitTemplate.convertAndSend(exchangeName, "red",  message);//routingKey先不管,三个参数重载使用发送到交换机的方法
+            rabbitTemplate.convertAndSend(exchangeName, "yellow",  message2);//routingKey先不管,三个参数重载使用发送到交换机的方法
+            rabbitTemplate.convertAndSend(exchangeName, "blue",  message3);//routingKey先不管,三个参数重载使用发送到交换机的方法
+        }
+
+    }
+
 }
