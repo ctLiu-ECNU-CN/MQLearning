@@ -1,2 +1,4 @@
+D:\workSpaces\mq-demo\consumer\src\main\java\com\itheima\consumer\config\ErrorMessageConfiguration.java
 D:\workSpaces\mq-demo\consumer\src\main\java\com\itheima\consumer\mq\SpringRabbitListener.java
+D:\workSpaces\mq-demo\consumer\src\main\java\com\itheima\consumer\config\FanoutConfiguration.java
 D:\workSpaces\mq-demo\consumer\src\main\java\com\itheima\consumer\ConsumerApplication.java

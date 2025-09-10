@@ -1,2 +1,4 @@
+com\itheima\consumer\config\ErrorMessageConfiguration.class
 com\itheima\consumer\ConsumerApplication.class
+com\itheima\consumer\config\FanoutConfiguration.class
 com\itheima\consumer\mq\SpringRabbitListener.class
